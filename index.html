@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Numérico</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário Numérico</h1>
+        <h2>O primeiro número deve ser maior que o segundo:</h2>
+        <form id="numeric-form">
+            <input type="number" id="primeiro-numero" required placeholder="Primeiro número">
+            <input type="number" id="segundo-numero" required placeholder="Segundo número">
+            <button type="submit">Submit</button>
+        </form>
+        <p class="success-message"></p>
+        <p class="error-message"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
